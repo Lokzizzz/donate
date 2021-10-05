@@ -1,0 +1,154 @@
+body {
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	}
+.menu {
+	text-align: left;
+	background-color: #45015d;
+	color: white;
+	border-radius: 15px;
+	padding: 10px 20px;
+	font-weight: bold;
+	width: 150px;
+	height: 100vh;
+	box-sizing: border-box;
+	position: fixed;
+
+
+}
+.menu a {
+	color: white;
+	text-decoration: none;
+	display: block; 
+	padding-bottom: 15px;
+}
+
+.main {
+	margin-left: 360px;
+	padding-top: 80px;
+	margin-right: 40px;
+}
+#showcase img {
+	width: 45%;
+	border-radius: 10px;
+	margin: 5px;
+	opacity: 0.7;
+}
+#showcase img:hover {
+	opacity: 1;
+}
+#showcase h2 {
+	color: #45015d;
+}
+h1{
+	font-size: 64px;
+	font-weight: 400;
+}
+hr {
+	width: 100%;
+	border: 5px solid #45015d;
+	border-radius: 4px;
+	margin: 20px 0;
+}
+.member  {
+	display: inline-block;
+	width: 30%;
+	padding: 8px;
+	box-sizing: border-box;
+}
+.member img {
+	width: 100%;
+	filter: grayscale(30%);
+	border-radius: 10px;
+}
+.description {
+	background-color: #f1f1f1;
+	padding: 5px 16px;
+	border-radius: 6px;
+}
+.position {
+	color: dimgray;
+}
+.package {
+	display: inline-block;
+	width: 40%;
+	text-align: center;
+	
+}
+.packagess .package  {
+	background-color: lightgray;
+	border-width: 1px;
+	border-color: gray;
+	border-radius: 7px;
+}
+.package_n {
+	font-size:32px ;
+	list-style-type: none;
+	background-color: orange;
+
+}
+.section-packages ul {
+	list-style-type: none;
+	padding: 0 ;
+}
+.package li {
+	background-color: lightgray;
+	border-bottom: 1px solid darkgray;
+	border-radius: 5px;
+	padding:15px 10px ;
+}
+.basic .package_n {
+	background-color: rebeccapurple;
+	color: white;
+}
+.pro .package_n {
+	background-color: orangered;
+	color: white;
+}
+.pro{
+	margin-left: 100px;
+}
+ul {
+	margin-top: 0;
+
+}
+li .price {
+	font-size: 32px;
+}
+.button button  {
+	padding: 8px 15px;
+	border-radius: 10px;
+	border-width: 0px;
+}
+.button_regular button {
+	background-color:whitesmoke ;
+}
+.button_pro button {
+	background-color: orangered;
+	color: white;
+}
+input {
+	width: 100%;
+	height: 27px;
+	margin: 0;
+}
+form button {
+	width: 100%;
+	height: 30px;
+	background-color: #45015d;
+	color: ghostwhite;
+	border-radius: 7px;
+	border-width: 0px;
+}
+#powered {
+	text-align: right;
+	padding: 17px 0;
+	background-color: lightgray;
+	margin-bottom: 0;
+	padding-right: 8px;
+}
+#powered span {
+	text-decoration: underline;
+}
